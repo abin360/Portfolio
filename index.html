@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    
+    <nav class="navbar">
+    <h1>PORTFOLIO.</h1>
+    <div class="div1">
+    <a href="#HOME">HOME</a>
+    <a href="#ABOUT">ABOUT</a>
+    <a href="#SKILLS">SKILLS</a>
+    <a href="#WORKS">WORKS</a>
+    <a href="#CONTACT">CONTACT</a>
+</div>
+<div class="menu">
+    <i class="fa-solid fa-bars" onclick="tap()"></i>
+</div>
+</nav>
+<div class="togglemenu" id="togglemenu">
+<div class="menulist">
+    <a href="#ABOUT">ABOUT</a>
+    <a href="#SKILLS">SKILLS</a>
+    <a href="#WORKS">WORKS</a>
+    <a href="#CONTACT">CONTACT</a>
+</div>
+</div>
+<div id="HOME">
+<div class="div2">
+    <p>HELLO, I'm ABIN</p>
+
+    <h1><span id="text"></span></h1> 
+    
+
+    
+</div>
+</div>
+<div id="ABOUT">
+<div class="div3">
+    <h1>ABOUT ME</h1>
+    <hr>
+    <p>Hi, I'm Abin, a passionate front-end web developer and UI Designer with a knack for creating engaging and user-friendly websites. <br>I specialize in crafting responsive, visually appealing, and highly functional web applications.
+        <br> My journey in web development started with a fascination for design and a desire to bring ideas to life on the web. <br>I have honed my skills in HTML, CSS, JavaScript. <br> I have a strong eye for detail and a deep understanding of user experience principles, ensuring that the websites. <br>I create not only look great but also provide a seamless and intuitive experience for users.
+</p> 
+</div>
+</div>
+<div id="SKILLS">
+<div class="div4">
+    <h1>SKILLS</h1>
+    <hr>
+    <div class="icon" >
+    <img src="icons8-html.svg" alt="">
+    <img src="icons8-css.svg" alt="">
+    <img src="icons8-javascript.svg" alt="">
+    <img src="icons8-adobe-photoshop.svg" alt="">
+    <img src="icons8-adobe-xd.svg" alt="">
+    <img src="icons8-figma.svg" alt="">
+</div>
+</div>
+</div>
+<div id="WORKS">
+<div class="div5">
+    <h1>WORKS</h1>
+    <hr>
+    <div class="card1">
+    <div class="card11">
+        <h1>Nike Website Clone </h1>
+        <a href="https://github.com/abin360/nike-clone-website.git">Explore</a>
+    </div>
+    <div class="card1i">
+        <img src="Screenshot 2024-07-11 195651.png" alt="">
+    </div>
+    </div>
+    <div class="card2">
+        <div class="card2i">
+            <img src="Screenshot 2024-07-11 195824.png" alt="">
+        </div>
+        <div class="card21">
+            <h1>X/Twitter Website Clone </h1>
+            <a href="https://github.com/abin360/x-twitter--website-clone.git">Explore</a>
+        </div>
+        </div>
+        <div class="card3">
+            <div class="card31">
+                <h1>Greenmind Website Clone </h1>
+                <a href="https://github.com/abin360/Greenmind-Website.git">Explore</a>
+            </div>
+            <div class="card3i">
+                <img src="Screenshot 2024-07-11 200125.png" alt="">
+            </div>
+            </div>
+</div>
+</div>
+<div id="CONTACT">
+<div class="div6">
+    <h1>Contact</h1>
+    <hr>
+    <div class="icons">
+        <div class="msg">
+    <p> For More.Connect with Me</p>
+</div>
+    <div class="hr">
+    <a href="https://www.facebook.com/abin.cb.56"><img src="icons8-facebook.svg" alt=""></a>
+    <a href="https://www.instagram.com/_abxn__?igsh=a2JtZHZjcGoxbTgz"><img src="icons8-instagram.svg" alt=""></a>
+    <a href="mailto:abinbiju357@gmail.com"><img src="icons8-gmail.svg" alt=""></a>
+    <a href="https://github.com/abin360"><img src="icons8-github.svg" alt=""></a>
+</div>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+<script>
+    var typed = new Typed('#text', {
+      strings: ['Frontend Developer', 'UI Designer'],
+      typeSpeed: 100,
+     backSpeed: 100,
+    backDelay: 100,
+      loop: true
+    });
+  </script>
+</body>
+</html>
